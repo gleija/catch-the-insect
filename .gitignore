@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+
+.eslintrc
+.prettierrc
+coverage/
+dist-storybook/
+dist/
+report/
+
+.DS_Store
+.idea
+.npmrc
+.eslintcache
