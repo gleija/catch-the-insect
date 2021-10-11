@@ -1,14 +1,8 @@
-import NewTodo from './components/NewTodo';
-import Todos from './components/Todos';
-import TodosContextProvider from './store/todos-context';
+import React from 'react';
+import GamePanel from './components/GamePanel';
 
-function App() {
-  return (
-    <TodosContextProvider>
-      <NewTodo />
-      <Todos />
-    </TodosContextProvider>
-  );
-}
+const App: React.FunctionComponent = () => {
+  return <GamePanel />;
+};
 
 export default App;
